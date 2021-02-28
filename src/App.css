@@ -1,38 +1,174 @@
 .App {
+  /* text-align: center; */
+}
+
+/* id card */
+.id-card {
+  display: flex;
+  align-items: center;
+  border: 1px solid black;
+  width: 600px; 
+  padding: 0.5em;
+  margin: 20px;
+  line-height: 1.3em;
+}
+
+.id-card img {
+  width: 150px;
+  margin-right: 20px;
+}
+
+/* box color */
+
+.box-color {
+  width: 500px;
+  padding: 20px;
+  margin: 20px;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+
+/* credit card */
+
+.credit-card {
+  width: 350px;
+  height: 200px;
+  border-radius: 10px;
+  padding: 1.2em;
+  margin: 2em;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.credit-card img {
+  width: 50px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.cc-type {
+  text-align: end
+}
+
+.cc-num {
+  text-align: center;
+  font-size: 1.5em;
+  margin: 20px auto;
+}
+
+.cc-info {
+  line-height: 2em;
+}
+
+
+
+/* driver card */
+
+.driver-card {
   display: flex;
-  flex-direction: column;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  background-color: rgb(80, 80, 150);
   color: white;
+  width: 800px;
+  height: 200px;
+  border-radius: 10px;
+  margin: 20px auto;
 }
 
-.App-link {
-  color: #61dafb;
+.driver-card img {
+  height: 100%;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.circle-img {
+  display: flex;
+  justify-content: center;
+  width: 150px;
+  height: 150px;
+  overflow: hidden;
+  border-radius: 50%;
+  margin-left: 150px;
+}
+
+.driver-info {
+  margin: auto 30px;
+}
+
+.driver-name {
+  font-size: 1.8em;
+  font-weight: 800;
+}
+
+.rating {
+  font-size: 1.5em;
+  margin: 10px 0;
+}
+
+/* ---------- */
+
+.dice {
+  width: 200px;
+  margin: 200px; 
+}
+
+/* ---------- */
+
+.container {
+  margin: 100px auto;
+  display: flex;
+  flex-wrap: wrap;
+  width: 550px;
+}
+
+.box {
+  width: 100px;
+  height: 100px;
+  border: 2px black solid;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2em;
+}
+
+.box:nth-of-type(2n) {
+  background-color: red;
+}
+
+/* facebook */
+
+.fb-card {
+  display: flex;
+  width: 500px;
+  border: 1px solid black;
+  margin: 20px;
+  padding: 10px;
+}
+
+.fb-avatar {
+  width: 150px;
+  margin-right: 30px;
+}
+
+/* ------------ */
+
+.signup-form {
+  width: 400px;
+  margin: 100px auto;
+}
+
+/* -------- */
+
+.color-picker {
+  display: flex;
+  align-items: center;
+  padding: 20px;
+}
+
+.color-picker input{
+  /* display: flex; */
+  height: 80%;
+  margin: 0 20px;
+}
+
+.color-box {
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  margin-right: 20px;
+  border: 1.5px black solid;
 }
